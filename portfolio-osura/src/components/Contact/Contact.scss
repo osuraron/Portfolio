@@ -19,6 +19,7 @@
 
     h2{
       font-size: 40px;
+      padding: 0 10px 20px 10px;
     }
     form{
       width: 70%;
@@ -34,6 +35,7 @@
         font-size: 14px;
       }
       textarea{ 
+        margin-top: -20px;
         width: 300px;
         height: 200px;
         font-size: 14px;
@@ -51,9 +53,9 @@
         &:focus{
           outline: none;
         }
-        span{
-          color: green;
-        }
+      }
+      span{
+        color: green;
       }
 
     }
